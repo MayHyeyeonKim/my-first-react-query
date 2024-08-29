@@ -1,0 +1,10 @@
+{
+    "posts": [
+        {"id":1, "title": "Majestic Doberman"},
+        {"id":2, "title": "Corgi Butt"},
+        {"id":3, "title": "Exicited Shiba"},
+        {"id":4, "title": "Lovely Terrier"},
+        {"id":5, "title": "Cool My Jindo"}
+    ]
+}
+

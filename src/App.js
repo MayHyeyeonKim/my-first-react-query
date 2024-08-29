@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -23,3 +24,7 @@ function App() {
 }
 
 export default App;
+
+// const port = process.env.PORT
+// Launch the server: json-server --watch db.json --port {PORT}
+// http://localhost:3004/posts
