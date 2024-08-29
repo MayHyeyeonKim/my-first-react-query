@@ -10,7 +10,8 @@ const ReactQueryPage = () => {
         retry: 1,
         select: (data)=>{
             return data.data //data객체안에 뭐가 잔뜩 들어있잖아? 그 중에서 data.data만 리턴하는 것임
-        }
+        },
+        gcTime: 5000, //가비지컬렉터타임 inactive 캐쉬 5초뒤에 비워짐 v5이상에서는 gc, 이전은 캐쉬타임, 옵션임(디폴트는 5분)
     })
     console.log("isLoading: ", isLoading)
     console.log("data: ", data)

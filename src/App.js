@@ -13,7 +13,7 @@ function App() {
           Home Page
         </Link>
         <Link to ="/normal-fetch" style={{marginRight:"10px"}}>
-          Nomal Page
+          Nomal Fetch
         </Link>
         <Link to="/react-query">
           React Query
