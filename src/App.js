@@ -2,6 +2,7 @@ import { Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import HomePage from "./HomePage";
 import ReactQueryPage from "./ReactQueryPage";
+import NormalPage from './NormalPage';
 
 
 function App() {
@@ -9,7 +10,10 @@ function App() {
     <div className="App">
       <nav style={{backgroundColor: "pink", padding:"20px"}}>
         <Link to ="/" style={{marginRight:"10px"}}>
-          HomePage
+          Home Page
+        </Link>
+        <Link to ="/normal-fetch" style={{marginRight:"10px"}}>
+          Nomal Page
         </Link>
         <Link to="/react-query">
           React Query
@@ -17,6 +21,7 @@ function App() {
       </nav>
       <Routes>
         <Route path="/" element={<HomePage/>} />
+        <Route path="/normal-fetch" element={<NormalPage/>} />
         <Route path="/react-query" element={<ReactQueryPage/>} />
       </Routes>
     </div>
